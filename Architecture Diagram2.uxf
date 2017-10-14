@@ -5,7 +5,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>990</x>
-      <y>174</y>
+      <y>192</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -17,7 +17,7 @@ MUSSE</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1140</x>
-      <y>330</y>
+      <y>348</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -28,8 +28,8 @@ PUFF</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>678</x>
-      <y>408</y>
+      <x>606</x>
+      <y>438</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -41,7 +41,7 @@ GPS</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>840</x>
-      <y>174</y>
+      <y>192</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -53,19 +53,19 @@ KAJSA</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>840</x>
-      <y>330</y>
+      <y>348</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>
-KASSE</panel_attributes>
+KALLE</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>996</x>
-      <y>330</y>
+      <y>348</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -77,7 +77,7 @@ PIFF</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>312</x>
-      <y>228</y>
+      <y>246</y>
       <w>894</w>
       <h>120</h>
     </coordinates>
@@ -89,7 +89,7 @@ PIFF</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>684</x>
-      <y>174</y>
+      <y>192</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -101,7 +101,7 @@ MIMMI</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>840</x>
-      <y>84</y>
+      <y>102</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -113,7 +113,7 @@ KAJSA SENSOR</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>900</x>
-      <y>138</y>
+      <y>156</y>
       <w>18</w>
       <h>48</h>
     </coordinates>
@@ -124,7 +124,7 @@ KAJSA SENSOR</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>354</x>
-      <y>336</y>
+      <y>354</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -138,7 +138,7 @@ SENSORS
     <id>UMLGeneric</id>
     <coordinates>
       <x>0</x>
-      <y>186</y>
+      <y>204</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -151,7 +151,7 @@ RECIEVER
     <id>UMLGeneric</id>
     <coordinates>
       <x>0</x>
-      <y>276</y>
+      <y>294</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -164,7 +164,7 @@ TRANSMITTER
     <id>Relation</id>
     <coordinates>
       <x>114</x>
-      <y>204</y>
+      <y>222</y>
       <w>96</w>
       <h>66</h>
     </coordinates>
@@ -175,7 +175,7 @@ TRANSMITTER
     <id>Relation</id>
     <coordinates>
       <x>114</x>
-      <y>270</y>
+      <y>288</y>
       <w>96</w>
       <h>48</h>
     </coordinates>
@@ -186,7 +186,7 @@ TRANSMITTER
     <id>UMLGeneric</id>
     <coordinates>
       <x>492</x>
-      <y>336</y>
+      <y>354</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -199,7 +199,7 @@ MECHANISMS
     <id>Relation</id>
     <coordinates>
       <x>288</x>
-      <y>192</y>
+      <y>210</y>
       <w>180</w>
       <h>54</h>
     </coordinates>
@@ -207,21 +207,10 @@ MECHANISMS
     <additional_attributes>280.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>732</x>
-      <y>354</y>
-      <w>18</w>
-      <h>66</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>456</x>
-      <y>168</y>
+      <y>186</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -233,7 +222,7 @@ MASS MEMORY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>222</y>
+      <y>240</y>
       <w>18</w>
       <h>54</h>
     </coordinates>
@@ -244,7 +233,7 @@ MASS MEMORY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>198</x>
-      <y>234</y>
+      <y>252</y>
       <w>120</w>
       <h>66</h>
     </coordinates>
@@ -255,11 +244,45 @@ MASS MEMORY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>684</x>
-      <y>300</y>
+      <y>318</y>
       <w>108</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>AOCS</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>750</x>
+      <y>438</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+ACTUATORS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>708</x>
+      <y>372</y>
+      <w>18</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>372</y>
+      <w>18</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
 </diagram>
