@@ -4,8 +4,8 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>370</x>
-      <y>140</y>
+      <x>570</x>
+      <y>150</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>400</x>
-      <y>80</y>
+      <x>600</x>
+      <y>90</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>90</y>
+      <x>600</x>
+      <y>100</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -37,41 +37,29 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>180</x>
-      <y>230</y>
+      <x>230</x>
+      <y>240</y>
       <w>210</w>
-      <h>130</h>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>PreLaunch Mode
---
-AOCS STANDBY 
-Payloads STANDBY
-Housekeeping Sensors ON
-Mechanisms STANDBY
--.
-Configure for launch
+    <panel_attributes>
+Stand-By Mode
 
-valign=top
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>140</x>
-      <y>420</y>
+      <x>190</x>
+      <y>430</y>
       <w>290</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>LEOP Mode
+    <panel_attributes>Stabilization Mode
 --
-AOCS STABILIZE
-Payloads STANDBY
-Mechanisms ON
--.
-Complete initial manouevres and deployment
-Correct damping and roational rate
-AOCS switch from thruster to RWL
+Complete initial manouevres
+Perfom rate damping
 valign=top
 </panel_attributes>
     <additional_attributes/>
@@ -79,19 +67,15 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>550</y>
+      <x>500</x>
+      <y>560</y>
       <w>210</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>Normal Mode
 --
-All Systems ON
--.
-Recieve commands
-Downlink data
-Complete science tasks
-Check for errors
+Control attitude
+Control orbit
 
 
 valign=top
@@ -101,39 +85,13 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>660</x>
-      <y>350</y>
-      <w>280</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>Safe Mode
---
-Payloads OFF
-Housekeeping Sensors ON
-AOCS ON
-Mechanisms OFF
--.
-Enter redundancy for failing modules
-Recieve commands from Ground Station
-Check if fault resolved
-
-
-valign=top
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>470</x>
-      <y>730</y>
+      <x>520</x>
+      <y>740</y>
       <w>240</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>Orbit Correction Mode (OCM)
 --
-AOCS to OCM
--.
 Correct attitude
 Correct orbit
 
@@ -145,32 +103,33 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>140</y>
-      <w>130</w>
+      <x>310</x>
+      <y>150</y>
+      <w>280</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-Switch on</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0;10.0;90.0</additional_attributes>
+Switch on
+</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>350</y>
+      <x>310</x>
+      <y>290</y>
       <w>270</w>
-      <h>90</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 S/C disconnected from external power</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>560</y>
+      <x>320</x>
+      <y>570</y>
       <w>200</w>
       <h>70</h>
     </coordinates>
@@ -181,32 +140,8 @@ TC: Enter Normal Mode</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>500</y>
-      <w>100</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-Failure</panel_attributes>
-    <additional_attributes>10.0;90.0;80.0;90.0;80.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>500</y>
-      <w>270</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-TC: Enter Normal Mode</panel_attributes>
-    <additional_attributes>100.0;10.0;100.0;120.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>500</x>
-      <y>660</y>
+      <x>550</x>
+      <y>670</y>
       <w>190</w>
       <h>90</h>
     </coordinates>
@@ -219,8 +154,8 @@ TC: Start Orbit Correction</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>660</y>
+      <x>670</x>
+      <y>670</y>
       <w>180</w>
       <h>90</h>
     </coordinates>
@@ -232,12 +167,12 @@ lt=-&gt;
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>20</y>
+      <x>40</x>
+      <y>50</y>
       <w>1180</w>
       <h>880</h>
     </coordinates>
-    <panel_attributes>Satellite Modes</panel_attributes>
+    <panel_attributes>AOCS Modes</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
