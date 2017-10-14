@@ -745,7 +745,7 @@ fg=#ff7f00</panel_attributes>
     <panel_attributes>Ka-Band TT&amp;C and
 Encryption Module
 valign=center
-bg=#feb24c</panel_attributes>
+bg=#41b6c4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -770,7 +770,7 @@ fg=#2171b5</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-fg=#feb24c</panel_attributes>
+fg=#41b6c4</panel_attributes>
     <additional_attributes>10.0;10.0;30.0;30.0;30.0;20.0;50.0;40.0</additional_attributes>
   </element>
   <element>
