@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>48</y>
+      <w>176</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Ground Station
+--
+Responsiblities
+- Relay command to UART</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1128</x>
+      <y>272</y>
+      <w>296</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+MUSSE
+--
+Responsibilities
+- Recieve mode commands from I2CPORT
+- Relay interuppt signal to I2CPORT requesting GPS data
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>824</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Active&gt;&gt;
+AOCS
+--
+Responsbilities
+- Relay GPS information on receipt of interrupt
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>48</y>
+      <w>224</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+UART
+--
+Responsibilities
+- Recieve command from Ground Station
+- Relay command to OBDH
+- Recieve data from OBDH
+- Relay data to Ground Station</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>304</y>
+      <w>256</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Sensors
+--
+Responsibilites
+- Relay temperature measurement data to OBDH
+- Relay voltage measurement data to OBDH
+- Relay current data to OBDH
+- Relay pressure data to OBDH
+- Relay single status bits to OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>304</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Active&gt;&gt;
+OBDH
+--
+Responsibilities
+- Recieve Commands from Ground Station
+- Relay Commands to IC2PORT
+- Relay Commands to IOPORT
+- Recieve signals from Sensors
+- Recieve interrupt from I2CPORT
+- Relay interrupt to IOPORT
+- Recieve signals from Mechanical Interfaces
+- Relay something to Ground Station?????</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>456</y>
+      <w>224</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+MIMMI
+--
+Responsbilities
+- Recieve mode commands from I2CPORT
+- Relay instrument status to I2CPORT
+- </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1232</x>
+      <y>640</y>
+      <w>184</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+KAJSA
+--
+Responsibilities
+- Recieve signal 1
+- Recieve signal 2
+- Recieve signal 3
+- Recieve command from I2CPORT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1736</x>
+      <y>552</y>
+      <w>256</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+PUFF
+--
+Responsibilities
+- Recieve mode command from I2CPORT
+- Relay data to KaLLE
+- Relay data to PIFF
+- Recieve measurement command from I2CPORT
+- Recieve data from mechanisims???
+- Relay command to mechanisims???
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1448</x>
+      <y>552</y>
+      <w>256</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+PIFF
+--
+Responsibilities
+- Recieve mode command from I2CPORT
+- Relay data to KALLE
+- Relay data to PUFF
+- Recieve measurement command from I2CPORT
+- Recieve data from mechanisims???
+- Relay command to mechanisims???
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1448</x>
+      <y>320</y>
+      <w>256</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+KALLE
+--
+Responsibilities
+- Recieve mode command from I2CPORT
+- Relay data to PIFF
+- Relay data to PUFF
+- Recieve measurement command from I2CPORT
+- Recieve data from mechanisims???
+- Relay command to mechanisims???
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>656</x>
+      <y>152</y>
+      <w>112</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0;80.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>656</x>
+      <y>304</y>
+      <w>112</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>80.0;20.0;80.0;120.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>104</y>
+      <w>88</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>20.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>656</x>
+      <y>104</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>328</x>
+      <y>368</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>20.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>368</y>
+      <w>96</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1528</x>
+      <y>472</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1696</x>
+      <y>600</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1696</x>
+      <y>416</y>
+      <w>112</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1696</x>
+      <y>392</y>
+      <w>136</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1696</x>
+      <y>640</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1544</x>
+      <y>472</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>312</y>
+      <w>224</w>
+      <h>552</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Active&gt;&gt;
+BUS
+--
+Responsibilities
+- Relay commands from OBDH to MIMMI
+- Relay commands from OBDH to MUSSE
+- Relay commands from OBDH to KAJSA
+- Relay commands from OBDH to KPP
+- Recieve interrupt request from MUSSE
+- Recieve instrument status from MIMMI
+- Recieve mechanism command from KPP
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1432</x>
+      <y>272</y>
+      <w>576</w>
+      <h>496</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+KPP
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>656</x>
+      <y>424</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>976</x>
+      <y>432</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>976</x>
+      <y>320</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>976</x>
+      <y>360</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>976</x>
+      <y>400</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>216</y>
+      <w>976</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>1180.0;180.0;1200.0;180.0;1200.0;20.0;40.0;20.0;40.0;150.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>360</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>440</y>
+      <w>184</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>210.0;340.0;40.0;340.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>408</y>
+      <w>152</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>170.0;170.0;70.0;170.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1696</x>
+      <y>352</y>
+      <w>328</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>390.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1584</x>
+      <y>352</y>
+      <w>440</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>530.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1848</x>
+      <y>352</y>
+      <w>176</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>512</y>
+      <w>224</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanical Interface
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>648</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanism 2
+--
+Responsibilites
+- Recieve command from OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>552</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanism 1
+--
+Responsibilites
+- Recieve command from OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>744</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanism 3
+--
+Responsibilites
+- Recieve command from OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>840</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanism 4
+--
+Responsibilites
+- Recieve command from OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>944</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Mechanism 5
+--
+Responsibilites
+- Recieve command from OBDH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>528</y>
+      <w>232</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>10.0;60.0;230.0;60.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>456</y>
+      <w>64</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>20.0;80.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>976</x>
+      <y>488</y>
+      <w>240</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;550.0;280.0;550.0</additional_attributes>
+  </element>
+</diagram>
