@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
+      <x>679</x>
       <y>0</y>
       <w>301</w>
       <h>140</h>
@@ -14,24 +14,24 @@ Ground Station
 --
 Responsiblities
 - Relay command to Ka-Band TT&amp;C and Encryption Module
-- Recieve data from Ka-Band TT&amp;C and Encryption Module
-- Recieve image data from Ka-Band TT&amp;C and Encryption Module
+- Receive data from Ka-Band TT&amp;C and Encryption Module
+- Receive image data from Ka-Band TT&amp;C and Encryption Module
 group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>357</x>
+      <x>217</x>
       <y>1001</y>
       <w>273</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 MUSSE
 --
 Responsibilities
-- Recieve mode commands from ASIC BUS
+- Receive mode commands from ASIC BUS
 - Relay interuppt signal to ASIC BUS requesting GPS data
 
 </panel_attributes>
@@ -40,7 +40,7 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
+      <x>224</x>
       <y>833</y>
       <w>210</w>
       <h>140</h>
@@ -61,12 +61,12 @@ Responsbilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
+      <x>224</x>
       <y>644</y>
       <w>224</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+    <panel_attributes>&lt;&lt;Active&gt;&gt;
 Housekeeping
 --
 Responsibilites
@@ -80,7 +80,7 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
+      <x>0</x>
       <y>511</y>
       <w>210</w>
       <h>140</h>
@@ -89,29 +89,29 @@ Responsibilites
 OBDH
 --
 Responsibilities
-- Recieve Commands from Ground Station
+- Receive Commands from Ground Station
 - Relay Commands to ASIC BUS
 - Relay Commands to ASIC BUS
-- Recieve signals from Sensors
-- Recieve interrupt from ASIC BUS
+- Receive signals from Sensors
+- Receive interrupt from ASIC BUS
 - Relay interrupt to ASIC BUS
-- Recieve signals from Mechanical Interfaces
+- Receive signals from Mechanical Interfaces
 - Relay data to Ground Station</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
+      <x>980</x>
       <y>574</y>
       <w>203</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 MIMMI
 --
 Responsbilities
-- Recieve mode commands from ASIC BUS
+- Receive mode commands from ASIC BUS
 - Relay instrument status to ASIC BUS
 - Relay image data to MMM</panel_attributes>
     <additional_attributes/>
@@ -119,38 +119,38 @@ Responsbilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>735</x>
+      <x>595</x>
       <y>1169</y>
       <w>175</w>
-      <h>140</h>
+      <h>98</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 KAJSA
 --
 Responsibilities
-- Recieve signal 1
-- Recieve signal 2
-- Recieve signal 3
-- Recieve command from ASIC BUS</panel_attributes>
+- Receive signal 1
+- Receive signal 2
+- Receive signal 3
+- Receive command from ASIC BUS</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1302</x>
+      <x>1162</x>
       <y>973</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 PUFF
 --
 Responsibilities
-- Recieve mode command from ASIC BUS
+- Receive mode command from ASIC BUS
 - Relay data to KALLE
 - Relay data to PIFF
-- Recieve measurement command from ASIC BUS
-- Recieve data from mechanisims
+- Receive measurement command from ASIC BUS
+- Receive data from mechanisims
 - Relay command to mechanisims
 </panel_attributes>
     <additional_attributes/>
@@ -158,20 +158,20 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1043</x>
+      <x>903</x>
       <y>973</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 PIFF
 --
 Responsibilities
-- Recieve mode command from ASIC BUS
+- Receive mode command from ASIC BUS
 - Relay data to KALLE
 - Relay data to PUFF
-- Recieve measurement command from ASIC BUS
-- Recieve data from mechanisims
+- Receive measurement command from ASIC BUS
+- Receive data from mechanisims
 - Relay command to mechanisims?
 </panel_attributes>
     <additional_attributes/>
@@ -179,20 +179,20 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1302</x>
+      <x>1162</x>
       <y>770</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 KALLE
 --
 Responsibilities
-- Recieve mode command from ASIC BUS
+- Receive mode command from ASIC BUS
 - Relay data to PIFF
 - Relay data to PUFF
-- Recieve measurement command from ASIC BUS
-- Recieve data from Mechanisims
+- Receive measurement command from ASIC BUS
+- Receive data from Mechanisims
 - Relay command to Mechanisims
 </panel_attributes>
     <additional_attributes/>
@@ -200,7 +200,7 @@ Responsibilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>651</x>
+      <x>511</x>
       <y>749</y>
       <w>91</w>
       <h>35</h>
@@ -213,7 +213,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>441</x>
       <y>707</y>
       <w>84</w>
       <h>77</h>
@@ -226,7 +226,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1120</x>
+      <x>980</x>
       <y>833</y>
       <w>196</w>
       <h>154</h>
@@ -237,7 +237,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1267</x>
+      <x>1127</x>
       <y>1015</y>
       <w>49</w>
       <h>21</h>
@@ -248,7 +248,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1421</x>
+      <x>1281</x>
       <y>903</y>
       <w>21</w>
       <h>84</h>
@@ -259,7 +259,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
+      <x>1316</x>
       <y>903</y>
       <w>21</w>
       <h>84</h>
@@ -270,7 +270,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1267</x>
+      <x>1127</x>
       <y>1050</y>
       <w>49</w>
       <h>21</h>
@@ -281,7 +281,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1134</x>
+      <x>994</x>
       <y>847</y>
       <w>182</w>
       <h>140</h>
@@ -292,7 +292,7 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>728</x>
+      <x>588</x>
       <y>630</y>
       <w>210</w>
       <h>483</h>
@@ -305,21 +305,21 @@ Responsibilities
 - Relay commands from OBDH to MUSSE
 - Relay commands from OBDH to KAJSA
 - Relay commands from OBDH to KAPIPU
-- Recieve interrupt request from MUSSE
-- Recieve instrument status from MIMMI
-- Recieve mechanism command from KAPIPU
+- Receive interrupt request from MUSSE
+- Receive instrument status from MIMMI
+- Receive mechanism command from KAPIPU
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1036</x>
+      <x>896</x>
       <y>728</y>
       <w>504</w>
       <h>406</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Payload&gt;&gt;
+    <panel_attributes>&lt;&lt;Instrument&gt;&gt;
 KAPIPU
 --</panel_attributes>
     <additional_attributes/>
@@ -327,7 +327,7 @@ KAPIPU
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
+      <x>679</x>
       <y>1106</y>
       <w>56</w>
       <h>49</h>
@@ -340,7 +340,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>931</x>
+      <x>791</x>
       <y>637</y>
       <w>77</w>
       <h>35</h>
@@ -353,7 +353,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>679</x>
+      <x>539</x>
       <y>1050</y>
       <w>70</w>
       <h>35</h>
@@ -366,7 +366,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>931</x>
+      <x>791</x>
       <y>805</y>
       <w>70</w>
       <h>35</h>
@@ -379,9 +379,9 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>826</x>
+      <x>686</x>
       <y>1141</y>
-      <w>49</w>
+      <w>56</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=-()
@@ -392,7 +392,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>994</x>
+      <x>854</x>
       <y>637</y>
       <w>140</w>
       <h>35</h>
@@ -405,7 +405,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1029</x>
+      <x>889</x>
       <y>805</y>
       <w>287</w>
       <h>28</h>
@@ -416,7 +416,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1029</x>
+      <x>889</x>
       <y>812</y>
       <w>161</w>
       <h>175</h>
@@ -427,7 +427,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1029</x>
+      <x>889</x>
       <y>812</y>
       <w>392</w>
       <h>175</h>
@@ -438,7 +438,7 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
+      <x>0</x>
       <y>693</y>
       <w>196</w>
       <h>455</h>
@@ -452,7 +452,7 @@ Mechanical Interface
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
+      <x>14</x>
       <y>812</y>
       <w>168</w>
       <h>70</h>
@@ -461,14 +461,14 @@ Mechanical Interface
 Mechanism 2
 --
 Responsibilites
-- Recieve command from OBDH
+- Receive command from OBDH
 - Initiate Mechanism</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
+      <x>14</x>
       <y>728</y>
       <w>168</w>
       <h>70</h>
@@ -477,14 +477,14 @@ Responsibilites
 Mechanism 1
 --
 Responsibilites
-- Recieve command from OBDH
+- Receive command from OBDH
 - Initiate Mechanism</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
+      <x>14</x>
       <y>896</y>
       <w>168</w>
       <h>70</h>
@@ -493,14 +493,14 @@ Responsibilites
 Mechanism 3
 --
 Responsibilites
-- Recieve command from OBDH
+- Receive command from OBDH
 - Initiate Mechanism</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
+      <x>14</x>
       <y>980</y>
       <w>168</w>
       <h>70</h>
@@ -509,14 +509,14 @@ Responsibilites
 Mechanism 4
 --
 Responsibilites
-- Recieve command from OBDH
+- Receive command from OBDH
 - Initiate Mechanism</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>154</x>
+      <x>14</x>
       <y>1071</y>
       <w>168</w>
       <h>70</h>
@@ -525,14 +525,14 @@ Responsibilites
 Mechanism 5
 --
 Responsibilites
-- Recieve command from OBDH
+- Receive command from OBDH
 - Initiate Mechanism</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>329</x>
+      <x>189</x>
       <y>742</y>
       <w>301</w>
       <h>91</h>
@@ -545,7 +545,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
+      <x>476</x>
       <y>798</y>
       <w>126</w>
       <h>35</h>
@@ -558,7 +558,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>567</x>
+      <x>427</x>
       <y>875</y>
       <w>175</w>
       <h>21</h>
@@ -569,7 +569,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>672</x>
+      <x>532</x>
       <y>49</y>
       <w>77</w>
       <h>35</h>
@@ -582,7 +582,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>735</x>
+      <x>595</x>
       <y>49</y>
       <w>98</w>
       <h>35</h>
@@ -595,7 +595,7 @@ m1=require
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>483</x>
+      <x>343</x>
       <y>0</y>
       <w>196</w>
       <h>140</h>
@@ -604,11 +604,11 @@ m1=require
 Ka-Band TT&amp;C and Encryption Module
 --
 Responsibilities
-- Recieve command from Ground Station
+- Receive command from Ground Station
 - Relay command to SpaceWire Router
-- Recieve data from SpaceWire Router
+- Receive data from SpaceWire Router
 - Relay data to Ground Station
-- Unencrypt encrypted messages
+- Decrypt encrypted messages
 - Encrypt marked messages
 </panel_attributes>
     <additional_attributes/>
@@ -616,7 +616,7 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
+      <x>980</x>
       <y>189</y>
       <w>196</w>
       <h>140</h>
@@ -625,7 +625,7 @@ Responsibilities
 Mass Memory Module (MMM)
 --
 Responsbilities
-- Recieve image data from MIMMI
+- Receive image data from MIMMI
 - Relay image data to SpaceWire Router
 </panel_attributes>
     <additional_attributes/>
@@ -633,7 +633,7 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>623</x>
+      <x>483</x>
       <y>1050</y>
       <w>70</w>
       <h>35</h>
@@ -646,7 +646,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>987</x>
+      <x>847</x>
       <y>805</y>
       <w>63</w>
       <h>35</h>
@@ -659,7 +659,7 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>679</x>
+      <x>539</x>
       <y>189</y>
       <w>315</w>
       <h>140</h>
@@ -670,7 +670,7 @@ SpaceWire Router
 Responsbilities
 - Relay image data to Ka-Band TT&amp;C and Encryption Module
 - Relay data to Ka-Band TT&amp;C and Encryption Module
-- Recieve commands from Ka-Band TT&amp;C and Encryption Module
+- Receive commands from Ka-Band TT&amp;C and Encryption Module
 
 </panel_attributes>
     <additional_attributes/>
@@ -678,7 +678,7 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>987</x>
+      <x>847</x>
       <y>238</y>
       <w>77</w>
       <h>35</h>
@@ -691,7 +691,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
+      <x>910</x>
       <y>238</y>
       <w>84</w>
       <h>35</h>
@@ -704,7 +704,7 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>714</x>
+      <x>574</x>
       <y>427</y>
       <w>273</w>
       <h>77</h>
@@ -720,7 +720,7 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>805</x>
+      <x>665</x>
       <y>322</y>
       <w>21</w>
       <h>119</h>
@@ -731,7 +731,7 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1211</x>
+      <x>1071</x>
       <y>322</y>
       <w>21</w>
       <h>266</h>
@@ -742,7 +742,7 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>826</x>
+      <x>686</x>
       <y>581</y>
       <w>56</w>
       <h>63</h>
@@ -755,9 +755,9 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>833</x>
+      <x>693</x>
       <y>497</y>
-      <w>49</w>
+      <w>56</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>lt=-()
@@ -768,7 +768,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>364</x>
       <y>588</y>
       <w>238</w>
       <h>98</h>
@@ -781,7 +781,7 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
+      <x>203</x>
       <y>588</y>
       <w>175</w>
       <h>35</h>
@@ -794,7 +794,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>868</x>
+      <x>728</x>
       <y>322</y>
       <w>21</w>
       <h>119</h>
@@ -805,7 +805,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
+      <x>385</x>
       <y>133</y>
       <w>168</w>
       <h>189</h>
@@ -816,7 +816,7 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
+      <x>448</x>
       <y>133</y>
       <w>105</w>
       <h>140</h>

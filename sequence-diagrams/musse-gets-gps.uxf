@@ -431,4 +431,41 @@ nmeagps</panel_attributes>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>200</x>
+      <y>460</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Communication mediums:
+ - MIL-STD-1553B to and from Remote Terminal Computers (RTC).
+fontsize=7
+ - SpaceWire to and from SpaceWire Router.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>480</x>
+      <y>380</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Packet path addressing for SpW communication.
+
+_Request_
+Format: &lt;9,2&gt;&lt;CARGO&gt;&lt;EOP&gt;
+CARGO is parameter data in NMEA standard:
+ - Request Source
+ - Quality Indicator
+ - HDOP (horizontal dilution of precision).
+
+_Reponse_
+Format: &lt;1,4&gt;&lt;CARGO&gt;&lt;EOP&gt;
+CARGO is GPS data in NMEA standard:
+fontsize=7</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
