@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>679</x>
-      <y>0</y>
+      <x>889</x>
+      <y>133</y>
       <w>301</w>
       <h>140</h>
     </coordinates>
@@ -22,8 +22,8 @@ group=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>217</x>
-      <y>1001</y>
+      <x>427</x>
+      <y>1134</y>
       <w>273</w>
       <h>140</h>
     </coordinates>
@@ -40,8 +40,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>224</x>
-      <y>833</y>
+      <x>434</x>
+      <y>966</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -61,8 +61,8 @@ Responsbilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>224</x>
-      <y>644</y>
+      <x>434</x>
+      <y>777</y>
       <w>224</w>
       <h>140</h>
     </coordinates>
@@ -80,8 +80,8 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>511</y>
+      <x>210</x>
+      <y>644</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -102,8 +102,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>980</x>
-      <y>574</y>
+      <x>1190</x>
+      <y>707</y>
       <w>203</w>
       <h>140</h>
     </coordinates>
@@ -119,8 +119,8 @@ Responsbilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>595</x>
-      <y>1169</y>
+      <x>805</x>
+      <y>1302</y>
       <w>175</w>
       <h>98</h>
     </coordinates>
@@ -137,8 +137,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1162</x>
-      <y>973</y>
+      <x>1372</x>
+      <y>1106</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
@@ -158,8 +158,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>903</x>
-      <y>973</y>
+      <x>1113</x>
+      <y>1106</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
@@ -179,8 +179,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1162</x>
-      <y>770</y>
+      <x>1372</x>
+      <y>903</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
@@ -200,8 +200,8 @@ Responsibilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>511</x>
-      <y>749</y>
+      <x>721</x>
+      <y>882</y>
       <w>91</w>
       <h>35</h>
     </coordinates>
@@ -213,8 +213,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>707</y>
+      <x>651</x>
+      <y>840</y>
       <w>84</w>
       <h>77</h>
     </coordinates>
@@ -226,8 +226,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>833</y>
+      <x>1190</x>
+      <y>966</y>
       <w>196</w>
       <h>154</h>
     </coordinates>
@@ -237,8 +237,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1127</x>
-      <y>1015</y>
+      <x>1337</x>
+      <y>1148</y>
       <w>49</w>
       <h>21</h>
     </coordinates>
@@ -248,8 +248,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1281</x>
-      <y>903</y>
+      <x>1491</x>
+      <y>1036</y>
       <w>21</w>
       <h>84</h>
     </coordinates>
@@ -259,8 +259,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>903</y>
+      <x>1526</x>
+      <y>1036</y>
       <w>21</w>
       <h>84</h>
     </coordinates>
@@ -270,8 +270,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1127</x>
-      <y>1050</y>
+      <x>1337</x>
+      <y>1183</y>
       <w>49</w>
       <h>21</h>
     </coordinates>
@@ -281,8 +281,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>994</x>
-      <y>847</y>
+      <x>1204</x>
+      <y>980</y>
       <w>182</w>
       <h>140</h>
     </coordinates>
@@ -292,8 +292,8 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>588</x>
-      <y>630</y>
+      <x>798</x>
+      <y>763</y>
       <w>210</w>
       <h>483</h>
     </coordinates>
@@ -314,8 +314,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>896</x>
-      <y>728</y>
+      <x>1106</x>
+      <y>861</y>
       <w>504</w>
       <h>406</h>
     </coordinates>
@@ -327,8 +327,8 @@ KAPIPU
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>679</x>
-      <y>1106</y>
+      <x>889</x>
+      <y>1239</y>
       <w>56</w>
       <h>49</h>
     </coordinates>
@@ -340,8 +340,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>791</x>
-      <y>637</y>
+      <x>1001</x>
+      <y>770</y>
       <w>77</w>
       <h>35</h>
     </coordinates>
@@ -353,8 +353,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>539</x>
-      <y>1050</y>
+      <x>749</x>
+      <y>1183</y>
       <w>70</w>
       <h>35</h>
     </coordinates>
@@ -366,8 +366,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>791</x>
-      <y>805</y>
+      <x>1001</x>
+      <y>938</y>
       <w>70</w>
       <h>35</h>
     </coordinates>
@@ -379,9 +379,9 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>686</x>
-      <y>1141</y>
-      <w>56</w>
+      <x>896</x>
+      <y>1274</y>
+      <w>49</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=-()
@@ -392,8 +392,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>637</y>
+      <x>1064</x>
+      <y>770</y>
       <w>140</w>
       <h>35</h>
     </coordinates>
@@ -405,8 +405,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>889</x>
-      <y>805</y>
+      <x>1099</x>
+      <y>938</y>
       <w>287</w>
       <h>28</h>
     </coordinates>
@@ -416,8 +416,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>889</x>
-      <y>812</y>
+      <x>1099</x>
+      <y>945</y>
       <w>161</w>
       <h>175</h>
     </coordinates>
@@ -427,8 +427,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>889</x>
-      <y>812</y>
+      <x>1099</x>
+      <y>945</y>
       <w>392</w>
       <h>175</h>
     </coordinates>
@@ -438,8 +438,8 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>693</y>
+      <x>210</x>
+      <y>826</y>
       <w>196</w>
       <h>455</h>
     </coordinates>
@@ -452,8 +452,8 @@ Mechanical Interface
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>14</x>
-      <y>812</y>
+      <x>224</x>
+      <y>945</y>
       <w>168</w>
       <h>70</h>
     </coordinates>
@@ -468,8 +468,8 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>14</x>
-      <y>728</y>
+      <x>224</x>
+      <y>861</y>
       <w>168</w>
       <h>70</h>
     </coordinates>
@@ -484,8 +484,8 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>14</x>
-      <y>896</y>
+      <x>224</x>
+      <y>1029</y>
       <w>168</w>
       <h>70</h>
     </coordinates>
@@ -500,8 +500,8 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>14</x>
-      <y>980</y>
+      <x>224</x>
+      <y>1113</y>
       <w>168</w>
       <h>70</h>
     </coordinates>
@@ -516,8 +516,8 @@ Responsibilites
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>14</x>
-      <y>1071</y>
+      <x>224</x>
+      <y>1204</y>
       <w>168</w>
       <h>70</h>
     </coordinates>
@@ -532,8 +532,8 @@ Responsibilites
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>742</y>
+      <x>399</x>
+      <y>875</y>
       <w>301</w>
       <h>91</h>
     </coordinates>
@@ -545,8 +545,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
-      <y>798</y>
+      <x>686</x>
+      <y>931</y>
       <w>126</w>
       <h>35</h>
     </coordinates>
@@ -558,19 +558,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>427</x>
-      <y>875</y>
-      <w>175</w>
-      <h>21</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>230.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>532</x>
-      <y>49</y>
+      <x>742</x>
+      <y>182</y>
       <w>77</w>
       <h>35</h>
     </coordinates>
@@ -582,8 +571,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>595</x>
-      <y>49</y>
+      <x>805</x>
+      <y>182</y>
       <w>98</w>
       <h>35</h>
     </coordinates>
@@ -595,8 +584,8 @@ m1=require
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>343</x>
-      <y>0</y>
+      <x>553</x>
+      <y>133</y>
       <w>196</w>
       <h>140</h>
     </coordinates>
@@ -607,7 +596,9 @@ Responsibilities
 - Receive command from Ground Station
 - Relay command to SpaceWire Router
 - Receive data from SpaceWire Router
+- Receive image data from SpaceWire Router
 - Relay data to Ground Station
+- Relay image data to Ground Station
 - Decrypt encrypted messages
 - Encrypt marked messages
 </panel_attributes>
@@ -616,8 +607,8 @@ Responsibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>980</x>
-      <y>189</y>
+      <x>1190</x>
+      <y>322</y>
       <w>196</w>
       <h>140</h>
     </coordinates>
@@ -633,8 +624,8 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>483</x>
-      <y>1050</y>
+      <x>693</x>
+      <y>1183</y>
       <w>70</w>
       <h>35</h>
     </coordinates>
@@ -646,8 +637,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>805</y>
+      <x>1057</x>
+      <y>938</y>
       <w>63</w>
       <h>35</h>
     </coordinates>
@@ -659,8 +650,8 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>539</x>
-      <y>189</y>
+      <x>749</x>
+      <y>322</y>
       <w>315</w>
       <h>140</h>
     </coordinates>
@@ -678,8 +669,8 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>238</y>
+      <x>1057</x>
+      <y>371</y>
       <w>77</w>
       <h>35</h>
     </coordinates>
@@ -691,8 +682,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>910</x>
-      <y>238</y>
+      <x>1120</x>
+      <y>371</y>
       <w>84</w>
       <h>35</h>
     </coordinates>
@@ -704,8 +695,8 @@ m2=provide
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>427</y>
+      <x>784</x>
+      <y>560</y>
       <w>273</w>
       <h>77</h>
     </coordinates>
@@ -720,8 +711,8 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>322</y>
+      <x>875</x>
+      <y>455</y>
       <w>21</w>
       <h>119</h>
     </coordinates>
@@ -731,8 +722,8 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
-      <y>322</y>
+      <x>1281</x>
+      <y>455</y>
       <w>21</w>
       <h>266</h>
     </coordinates>
@@ -742,8 +733,8 @@ Responsbilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>686</x>
-      <y>581</y>
+      <x>896</x>
+      <y>714</y>
       <w>56</w>
       <h>63</h>
     </coordinates>
@@ -755,9 +746,9 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
-      <y>497</y>
-      <w>56</w>
+      <x>903</x>
+      <y>630</y>
+      <w>49</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>lt=-()
@@ -768,8 +759,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>364</x>
-      <y>588</y>
+      <x>574</x>
+      <y>721</y>
       <w>238</w>
       <h>98</h>
     </coordinates>
@@ -781,8 +772,8 @@ m1=require
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>203</x>
-      <y>588</y>
+      <x>413</x>
+      <y>721</y>
       <w>175</w>
       <h>35</h>
     </coordinates>
@@ -794,8 +785,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
-      <y>322</y>
+      <x>938</x>
+      <y>455</y>
       <w>21</w>
       <h>119</h>
     </coordinates>
@@ -805,8 +796,8 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>133</y>
+      <x>595</x>
+      <y>266</y>
       <w>168</w>
       <h>189</h>
     </coordinates>
@@ -816,12 +807,38 @@ m2=provide
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>448</x>
-      <y>133</y>
+      <x>658</x>
+      <y>266</y>
       <w>105</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0;130.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>721</x>
+      <y>1001</y>
+      <w>91</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m1=require
+</panel_attributes>
+    <additional_attributes>20.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>1001</y>
+      <w>98</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-()
+m2=provide
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
 </diagram>
