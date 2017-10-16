@@ -167,10 +167,10 @@ lt=-&gt;
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>40</x>
-      <y>50</y>
-      <w>1180</w>
-      <h>880</h>
+      <x>110</x>
+      <y>60</y>
+      <w>790</w>
+      <h>820</h>
     </coordinates>
     <panel_attributes>AOCS Modes</panel_attributes>
     <additional_attributes/>
