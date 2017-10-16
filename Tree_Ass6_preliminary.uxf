@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2410</x>
-      <y>420</y>
+      <x>1940</x>
+      <y>260</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -17,8 +17,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1940</x>
-      <y>160</y>
+      <x>1470</x>
+      <y>0</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -30,8 +30,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1520</x>
-      <y>210</y>
+      <x>1050</x>
+      <y>50</y>
       <w>1010</w>
       <h>230</h>
     </coordinates>
@@ -41,8 +41,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>560</y>
+      <x>400</x>
+      <y>400</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -54,8 +54,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1430</x>
-      <y>560</y>
+      <x>960</x>
+      <y>400</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -67,8 +67,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1990</x>
-      <y>560</y>
+      <x>1520</x>
+      <y>400</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -80,8 +80,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1430</x>
-      <y>420</y>
+      <x>960</x>
+      <y>260</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -93,8 +93,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1250</x>
-      <y>720</y>
+      <x>780</x>
+      <y>560</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -106,8 +106,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
-      <y>720</y>
+      <x>0</x>
+      <y>560</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -119,60 +119,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>870</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>SAMPLERS
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>320</x>
-      <y>870</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>PORT I/O
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>640</x>
-      <y>870</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>I2C PORT
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>950</x>
-      <y>870</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>INT0
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1250</x>
-      <y>870</y>
+      <x>780</x>
+      <y>710</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -182,36 +130,10 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1780</x>
-      <y>720</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>I2C
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>2200</x>
-      <y>720</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>UART
---
- </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>470</y>
+      <x>490</x>
+      <y>310</y>
       <w>1160</w>
       <h>110</h>
     </coordinates>
@@ -221,45 +143,60 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>610</y>
+      <x>90</x>
+      <y>450</y>
       <w>810</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>410.0;10.0;410.0;80.0;790.0;80.0;790.0;110.0;790.0;80.0;10.0;80.0;10.0;110.0;10.0;80.0</additional_attributes>
+    <additional_attributes>410.0;10.0;410.0;110.0;410.0;80.0;790.0;80.0;790.0;110.0;790.0;80.0;10.0;80.0;10.0;110.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1530</x>
+      <y>540</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>SpaceWire Router
+--
+ </panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>770</y>
-      <w>990</w>
-      <h>120</h>
+      <x>1620</x>
+      <y>450</y>
+      <w>30</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>480.0;10.0;480.0;50.0;970.0;50.0;970.0;100.0;970.0;50.0;650.0;50.0;650.0;100.0;650.0;50.0;330.0;50.0;330.0;100.0;330.0;50.0;10.0;50.0;10.0;100.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>560</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>RTC
+--
+ </panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1340</x>
-      <y>770</y>
+      <x>870</x>
+      <y>610</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1870</x>
-      <y>620</y>
-      <w>460</w>
-      <h>120</h>
-    </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>230.0;10.0;230.0;50.0;440.0;50.0;440.0;100.0;440.0;50.0;10.0;50.0;10.0;100.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
 </diagram>
