@@ -222,8 +222,7 @@ get housekeeping]
 
 
 -.
-[subcmd is
-de-orbit]
+[subcmd is AOC]
 
 
 
@@ -432,7 +431,7 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 layer=2
-requestDeorbit()</panel_attributes>
+requestAttitudeControl()</panel_attributes>
     <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -470,7 +469,7 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 layer=2
-deorbit</panel_attributes>
+executeAttitudeControlSequence</panel_attributes>
     <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
