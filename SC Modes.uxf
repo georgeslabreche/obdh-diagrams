@@ -232,10 +232,10 @@ lt=-&gt;
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>20</y>
-      <w>1180</w>
-      <h>880</h>
+      <x>90</x>
+      <y>40</y>
+      <w>930</w>
+      <h>840</h>
     </coordinates>
     <panel_attributes>Satellite Modes</panel_attributes>
     <additional_attributes/>
