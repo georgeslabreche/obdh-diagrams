@@ -15,23 +15,24 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>182</x>
-      <y>105</y>
-      <w>126</w>
+      <x>161</x>
+      <y>98</y>
+      <w>119</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-decrypt(pubKey)
+decryptAndCS
+(pubKey, nmea)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>182</x>
-      <y>126</y>
+      <x>161</x>
+      <y>119</y>
       <w>14</w>
-      <h>616</h>
+      <h>623</h>
     </coordinates>
     <panel_attributes>transparency=0
 layer=2</panel_attributes>
@@ -40,7 +41,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>147</x>
+      <x>126</x>
       <y>35</y>
       <w>70</w>
       <h>21</h>
@@ -51,7 +52,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>175</x>
+      <x>154</x>
       <y>49</y>
       <w>21</w>
       <h>49</h>
@@ -62,7 +63,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>175</x>
+      <x>154</x>
       <y>84</y>
       <w>14</w>
       <h>686</h>
@@ -73,7 +74,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>56</x>
+      <x>35</x>
       <y>63</y>
       <w>28</w>
       <h>770</h>
@@ -84,7 +85,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>56</x>
+      <x>35</x>
       <y>77</y>
       <w>133</w>
       <h>28</h>
@@ -96,9 +97,9 @@ cmd(pubKey, nmea)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>98</x>
+      <x>77</x>
       <y>140</y>
-      <w>945</w>
+      <w>931</w>
       <h>588</h>
     </coordinates>
     <panel_attributes>optional
@@ -111,7 +112,7 @@ layer=1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>301</x>
+      <x>280</x>
       <y>35</y>
       <w>70</w>
       <h>21</h>
@@ -122,7 +123,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>329</x>
+      <x>308</x>
       <y>49</y>
       <w>21</w>
       <h>126</h>
@@ -133,7 +134,7 @@ layer=1</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>329</x>
+      <x>308</x>
       <y>161</y>
       <w>14</w>
       <h>546</h>
@@ -144,7 +145,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>168</x>
       <y>154</y>
       <w>154</w>
       <h>28</h>
@@ -157,7 +158,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>693</x>
+      <x>672</x>
       <y>280</y>
       <w>70</w>
       <h>21</h>
@@ -169,7 +170,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>336</x>
+      <x>315</x>
       <y>210</y>
       <w>14</w>
       <h>476</h>
@@ -181,7 +182,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
+      <x>315</x>
       <y>189</y>
       <w>91</w>
       <h>49</h>
@@ -194,14 +195,15 @@ layer=3</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>238</x>
+      <x>84</x>
       <y>238</y>
-      <w>784</w>
-      <h>427</h>
+      <w>917</w>
+      <h>483</h>
     </coordinates>
     <panel_attributes>loop
 --
-[for each piccmd]
+[for each
+piccmd]
 halign=left
 layer=2</panel_attributes>
     <additional_attributes/>
@@ -209,7 +211,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
+      <x>322</x>
       <y>259</y>
       <w>140</w>
       <h>28</h>
@@ -222,7 +224,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>721</x>
+      <x>700</x>
       <y>357</y>
       <w>14</w>
       <h>259</h>
@@ -234,7 +236,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>721</x>
+      <x>700</x>
       <y>294</y>
       <w>21</w>
       <h>77</h>
@@ -246,7 +248,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
+      <x>819</x>
       <y>294</y>
       <w>21</w>
       <h>98</h>
@@ -258,7 +260,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>959</x>
+      <x>938</x>
       <y>294</y>
       <w>21</w>
       <h>133</h>
@@ -270,7 +272,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>441</x>
+      <x>420</x>
       <y>35</y>
       <w>70</w>
       <h>21</h>
@@ -281,7 +283,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>469</x>
+      <x>448</x>
       <y>49</y>
       <w>21</w>
       <h>224</h>
@@ -293,7 +295,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>469</x>
+      <x>448</x>
       <y>259</y>
       <w>14</w>
       <h>385</h>
@@ -305,7 +307,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>924</x>
+      <x>903</x>
       <y>280</y>
       <w>77</w>
       <h>21</h>
@@ -317,7 +319,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>805</x>
+      <x>784</x>
       <y>280</y>
       <w>84</w>
       <h>21</h>
@@ -329,7 +331,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
+      <x>595</x>
       <y>350</y>
       <w>119</w>
       <h>28</h>
@@ -342,7 +344,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>840</x>
+      <x>819</x>
       <y>378</y>
       <w>14</w>
       <h>217</h>
@@ -354,7 +356,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
+      <x>819</x>
       <y>588</y>
       <w>21</w>
       <h>231</h>
@@ -366,20 +368,20 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
+      <x>707</x>
       <y>371</y>
       <w>126</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-save(picture)
+save(image)
 layer=3</panel_attributes>
     <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
+      <x>707</x>
       <y>392</y>
       <w>126</w>
       <h>21</h>
@@ -391,7 +393,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>959</x>
+      <x>938</x>
       <y>413</y>
       <w>14</w>
       <h>168</h>
@@ -403,20 +405,20 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
+      <x>826</x>
       <y>406</y>
       <w>126</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-toTTandC(picture)
+toTTandC(image)
 layer=3</panel_attributes>
     <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>959</x>
+      <x>938</x>
       <y>574</y>
       <w>21</w>
       <h>245</h>
@@ -428,20 +430,20 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>168</x>
       <y>448</y>
       <w>784</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-toTTandC(picure)
+toTTandC(image)
 layer=3</panel_attributes>
     <additional_attributes>10.0;20.0;1100.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
+      <x>175</x>
       <y>539</y>
       <w>658</w>
       <h>21</h>
@@ -453,7 +455,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
+      <x>595</x>
       <y>595</y>
       <w>119</w>
       <h>21</h>
@@ -465,7 +467,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>721</x>
+      <x>700</x>
       <y>609</y>
       <w>21</w>
       <h>210</h>
@@ -477,7 +479,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>469</x>
+      <x>448</x>
       <y>637</y>
       <w>21</w>
       <h>189</h>
@@ -489,7 +491,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>329</x>
+      <x>308</x>
       <y>700</y>
       <w>21</w>
       <h>126</h>
@@ -501,7 +503,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>175</x>
+      <x>154</x>
       <y>763</y>
       <w>21</w>
       <h>70</h>
@@ -513,7 +515,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>168</x>
       <y>693</y>
       <w>154</w>
       <h>21</h>
@@ -525,7 +527,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
+      <x>42</x>
       <y>756</y>
       <w>126</w>
       <h>21</h>
@@ -537,7 +539,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>189</x>
+      <x>168</x>
       <y>483</y>
       <w>14</w>
       <h>84</h>
@@ -550,20 +552,20 @@ layer=3
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>168</x>
       <y>469</y>
-      <w>119</w>
+      <w>147</w>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-encrypt(picture)
+encrypt(datapackage)
 layer=3</panel_attributes>
     <additional_attributes>20.0;30.0;50.0;30.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
+      <x>322</x>
       <y>616</y>
       <w>140</w>
       <h>21</h>
@@ -575,7 +577,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
+      <x>826</x>
       <y>567</y>
       <w>126</w>
       <h>21</h>
@@ -587,7 +589,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
+      <x>707</x>
       <y>574</y>
       <w>126</w>
       <h>21</h>
@@ -599,7 +601,7 @@ layer=3</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>196</x>
+      <x>175</x>
       <y>511</y>
       <w>14</w>
       <h>21</h>
@@ -612,20 +614,20 @@ layer=4
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
+      <x>175</x>
       <y>497</y>
-      <w>140</w>
+      <w>126</w>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-send(encryptedicture)
+send(datapackage)
 layer=3</panel_attributes>
     <additional_attributes>20.0;30.0;40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>581</x>
+      <x>560</x>
       <y>280</y>
       <w>70</w>
       <h>21</h>
@@ -637,7 +639,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>609</x>
+      <x>588</x>
       <y>294</y>
       <w>21</w>
       <h>56</h>
@@ -649,7 +651,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>609</x>
+      <x>588</x>
       <y>336</y>
       <w>14</w>
       <h>287</h>
@@ -661,7 +663,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
+      <x>455</x>
       <y>609</y>
       <w>147</w>
       <h>21</h>
@@ -673,7 +675,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
+      <x>455</x>
       <y>336</y>
       <w>147</w>
       <h>28</h>
@@ -686,7 +688,7 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>609</x>
+      <x>588</x>
       <y>616</y>
       <w>21</w>
       <h>210</h>
@@ -694,5 +696,26 @@ layer=3</panel_attributes>
     <panel_attributes>lt=.
 layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>532</x>
+      <y>35</y>
+      <w>70</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>_Request Parameters:_
+- Exposure time
+- Number of TDI stages
+- Number of frames
+- Interframe time
+- Summing
+- Compression.
+
+_Reponse:_
+- Image datapackage.
+fontsize=7</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

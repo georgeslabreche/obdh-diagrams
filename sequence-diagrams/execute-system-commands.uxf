@@ -17,11 +17,12 @@
     <coordinates>
       <x>184</x>
       <y>120</y>
-      <w>144</w>
+      <w>136</w>
       <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-decrypt(pubKey)
+decryptAndCS
+(pubKey, nmea)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -221,8 +222,7 @@ get housekeeping]
 
 
 -.
-[subcmd is
-de-orbit]
+[subcmd is AOC]
 
 
 
@@ -431,7 +431,7 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 layer=2
-requestDeorbit()</panel_attributes>
+requestAttitudeControl()</panel_attributes>
     <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -469,7 +469,7 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 layer=2
-deorbit</panel_attributes>
+executeAttitudeControlSequence</panel_attributes>
     <additional_attributes>340.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
