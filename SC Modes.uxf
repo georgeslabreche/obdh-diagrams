@@ -45,7 +45,7 @@
     <panel_attributes>PreLaunch Mode
 --
 AOCS STANDBY 
-Payloads STANDBY
+Instruments STANDBY
 Housekeeping Sensors ON
 Mechanisms STANDBY
 -.
@@ -66,7 +66,7 @@ valign=top
     <panel_attributes>LEOP Mode
 --
 AOCS STABILIZE
-Payloads STANDBY
+Instruments STANDBY
 Mechanisms ON
 -.
 Complete initial manouevres and deployment
@@ -108,7 +108,7 @@ valign=top
     </coordinates>
     <panel_attributes>Safe Mode
 --
-Payloads OFF
+Instruments OFF
 Housekeeping Sensors ON
 AOCS ON
 Mechanisms OFF
