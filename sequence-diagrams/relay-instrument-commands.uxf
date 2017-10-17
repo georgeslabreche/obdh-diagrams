@@ -17,11 +17,11 @@
     <coordinates>
       <x>175</x>
       <y>105</y>
-      <w>126</w>
+      <w>154</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-decrypt(pubKey)
+decryptAndCS(pubKey)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -561,7 +561,7 @@ layer=2</panel_attributes>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-execute(piffcmd)
+execute(puffcmd)
 layer=3</panel_attributes>
     <additional_attributes>480.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -658,7 +658,7 @@ layer=2
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-execute(kapipucmd)
+execute(mussecmd)
 layer=3</panel_attributes>
     <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -755,7 +755,7 @@ layer=2
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-execute(kapipucmd)
+execute(kajsacmd)
 layer=3</panel_attributes>
     <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
   </element>
