@@ -4,7 +4,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
+      <x>14</x>
       <y>0</y>
       <w>84</w>
       <h>77</h>
@@ -17,11 +17,12 @@
     <coordinates>
       <x>175</x>
       <y>105</y>
-      <w>154</w>
+      <w>119</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-decryptAndCS(pubKey)
+decryptAndCS
+(pubKey, nmea)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -471,11 +472,12 @@ layer=3</panel_attributes>
     <coordinates>
       <x>595</x>
       <y>364</y>
-      <w>140</w>
+      <w>105</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-process(kapipucmd)
+process
+(kapipucmd)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -910,11 +912,11 @@ layer=2</panel_attributes>
       <x>462</x>
       <y>1162</y>
       <w>21</w>
-      <h>63</h>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=.
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -922,11 +924,11 @@ layer=2</panel_attributes>
       <x>322</x>
       <y>1218</y>
       <w>21</w>
-      <h>63</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=.
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

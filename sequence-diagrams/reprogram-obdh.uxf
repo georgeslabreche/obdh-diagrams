@@ -195,7 +195,7 @@ layer=2</panel_attributes>
     <coordinates>
       <x>88</x>
       <y>160</y>
-      <w>1096</w>
+      <w>768</w>
       <h>1216</h>
     </coordinates>
     <panel_attributes>optional
@@ -446,7 +446,7 @@ layer=3</panel_attributes>
     <coordinates>
       <x>96</x>
       <y>280</y>
-      <w>1096</w>
+      <w>752</w>
       <h>1088</h>
     </coordinates>
     <panel_attributes>optional
@@ -793,7 +793,7 @@ layer=2</panel_attributes>
     <coordinates>
       <x>240</x>
       <y>744</y>
-      <w>960</w>
+      <w>600</w>
       <h>496</h>
     </coordinates>
     <panel_attributes>alternative
