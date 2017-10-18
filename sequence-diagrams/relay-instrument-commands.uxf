@@ -106,7 +106,7 @@ cmd(pubKey, nmea)</panel_attributes>
 --
 [authenticated]
 halign=left
-layer=1</panel_attributes>
+layer=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -218,7 +218,7 @@ layer=3</panel_attributes>
 PUFF]
 
 halign=left
-layer=2</panel_attributes>
+layer=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -233,7 +233,7 @@ layer=2</panel_attributes>
 --
 [for each subcmd]
 halign=left
-layer=2</panel_attributes>
+layer=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -627,7 +627,7 @@ layer=2</panel_attributes>
 --
 [for each mussecmd]
 halign=left
-layer=2
+layer=4
 
 
 </panel_attributes>
@@ -645,7 +645,7 @@ layer=2
 --
 [for each kapipucmd]
 halign=left
-layer=2
+layer=4
 
 
 </panel_attributes>
@@ -724,7 +724,7 @@ layer=3</panel_attributes>
 --
 [for each kajsacmd]
 halign=left
-layer=2
+layer=4
 
 
 </panel_attributes>
@@ -742,7 +742,7 @@ layer=2
 --
 [for each mimmicmd]
 halign=left
-layer=2
+layer=4
 
 
 </panel_attributes>

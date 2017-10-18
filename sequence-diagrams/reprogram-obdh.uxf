@@ -15,7 +15,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
+      <x>8</x>
       <y>0</y>
       <w>104</w>
       <h>88</h>
@@ -202,7 +202,7 @@ layer=2</panel_attributes>
 --
 [authenticated]
 halign=left
-layer=1</panel_attributes>
+layer=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -454,7 +454,7 @@ layer=3</panel_attributes>
 [mode is
 bootload]
 halign=left
-layer=1</panel_attributes>
+layer=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -811,7 +811,8 @@ success]
 
 
 -.
-[binaryupdate
+[binary
+update
 failure]
 
 
@@ -819,7 +820,7 @@ failure]
 
 
 halign=left
-layer=2</panel_attributes>
+layer=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1167,7 +1168,7 @@ layer=3</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 reprogram
-(nbinary)
+(bbinary)
 layer=3</panel_attributes>
     <additional_attributes>20.0;40.0;50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>

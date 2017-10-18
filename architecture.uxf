@@ -115,7 +115,7 @@ fg=#2171b5</panel_attributes>
       <w>250</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Remote Terminal Computer
+    <panel_attributes>Remote Terminal Controller
 valign=center
 bg=#bcbddc
 transparency=0</panel_attributes>
