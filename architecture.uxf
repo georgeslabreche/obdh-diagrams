@@ -468,12 +468,12 @@ fg=#2171b5</panel_attributes>
     <coordinates>
       <x>380</x>
       <y>530</y>
-      <w>60</w>
+      <w>50</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;-&gt;
 fg=#41b6c4</panel_attributes>
-    <additional_attributes>40.0;90.0;10.0;50.0;30.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>30.0;90.0;10.0;50.0;30.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
