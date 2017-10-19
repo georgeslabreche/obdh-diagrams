@@ -101,8 +101,8 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>660</x>
-      <y>350</y>
+      <x>710</x>
+      <y>390</y>
       <w>280</w>
       <h>160</h>
     </coordinates>
@@ -182,25 +182,25 @@ TC: Enter Normal Mode</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>650</x>
-      <y>500</y>
-      <w>100</w>
-      <h>110</h>
+      <y>540</y>
+      <w>150</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 Failure</panel_attributes>
-    <additional_attributes>10.0;90.0;80.0;90.0;80.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;130.0;50.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>650</x>
-      <y>500</y>
-      <w>270</w>
-      <h>140</h>
+      <y>540</y>
+      <w>320</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 TC: Enter Normal Mode</panel_attributes>
-    <additional_attributes>100.0;10.0;100.0;120.0;10.0;120.0</additional_attributes>
+    <additional_attributes>150.0;10.0;150.0;80.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -239,5 +239,51 @@ lt=-&gt;
     </coordinates>
     <panel_attributes>Satellite Modes</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>540</x>
+      <y>220</y>
+      <w>280</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Bootload Mode
+--
+Instruments OFF
+Housekeeping Sensors ON
+AOCS ON
+Mechanisms OFF
+-.
+Reconfigure system
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>340</y>
+      <w>120</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Reconfiguration</panel_attributes>
+    <additional_attributes>10.0;210.0;10.0;100.0;100.0;100.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>350</y>
+      <w>170</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Reconfiguration Complete</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;140.0;40.0;140.0;40.0;200.0</additional_attributes>
   </element>
 </diagram>
