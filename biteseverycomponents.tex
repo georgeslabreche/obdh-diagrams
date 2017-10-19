@@ -1,0 +1,188 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath} % Advanced math typesetting
+\usepackage[utf8]{inputenc} % Unicode support (Umlauts etc.)
+\usepackage{hyperref} % Add a link to your document
+\usepackage{graphicx} % Add pictures to your document
+\usepackage{listings} % Source code formatting and highlighting
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\usepackage{lscape}
+\usepackage{rotating}
+
+
+
+
+\begin{document}
+\section*{Data Budget}
+\
+\\
+Data budget is needed because the visibility window with ground station lasts 600 seconds and it is necessary to know the amount of data needed to be transferred in order to design properly the upload hardware.
+\\
+The orbital period is obtained by the Third Kepler Law, with a radius of $R_{earth}$(6378.14 km) plus the altitude of the satellite (800 km):
+\\
+\\
+\textbf{Orbital period $\tau$}=$\tfrac{2\pi (r^{3/2})}{\sqrt(\mu)}$= 6052.4 s
+\\
+A summary off all the data that need to be uploaded in one satellite's orbit is here reported
+\subsection*{Bits Per Orbital Period}
+\begin{itemize}
+\item{\textbf{Mimmi}}
+\\
+Mimmi takes pictures with a frequency of 0.0033 Hz. (20 images per orbit)
+\\
+Every measurement series will give $5 \cdot 10^6$ samples, each with 12 bits resolution.
+\\
+The amount of bits stored for transmission for each orbit is obtained by:
+\\
+$$ frequency \cdot size\hspace{0.1 cm}image \cdot orbital\hspace{0.1 cm} period$$
+\\
+Where the size image has been obtained as:
+\\
+\\
+$\textbf{Resolution} \hspace{0.1cm} 5 \cdot 10^6$
+\\
+$\textbf{Size of 1 image} \hspace{0.1cm} 12 \cdot 5 \cdot 10^6 = 60$Mbits
+\\
+\\
+\textbf{Total Amount of bits:} 1.199 Gbits
+\\
+\item{\textbf{Musse}}
+\\
+At most, Musse's modes are changed once per day and each mode needs 128 bytes of data from ground.
+\\
+\textbf{Total Amount of bits (Modes):} 1024 bits
+\\
+The raw data from the instrument consists of 4 measurements sampled at a rate of 12 Hz, with 12 bits of resolution.
+\\
+The amount of bits per orbit then is obtained as:
+\\
+$$n.^o \hspace{0.1 cm} Instruments \cdot frequency \cdot Orbital \hspace{0.1 cm} period \cdot resolution$$
+\\
+\textbf{Total Amount of bits:} 3.486 Mbits
+\\
+\item{\textbf{Kajsa}}
+\\
+Kajsa is controlled through 3 signals, and depending on signal it will perform a measurement with a resolution of 16 bits with a maximum sampling rate of 1 Hz.
+\\
+The amount of bits per orbit then is obtained as:
+\\
+$$frequency \cdot Orbital \hspace{0.1 cm} period \cdot resolution$$
+\\
+\textbf{Total Amount of bits:} 96.838 Kbits
+\\
+\item{\textbf{Kalle, Piff and Puff}}
+\\
+Kalle,Piff and Puff are three instrument that may work separately or in combination in common measurement series in a number of combinations.
+\\
+At most they will work all three simultaneously and for a whole orbital period.
+\\
+The data exchanged by Kalle, Piff och Puff are controlled by the ground station.
+\\
+All three of them will perform measurement with a resolution of 16 bits and with a sampling rate of 12 Hz
+\\
+The amount of bits per orbit then is obtained as:
+\\
+$$frequency \cdot Orbital \hspace{0.1 cm} period \cdot resolution$$
+\\
+\textbf{Total Amount of bits:} 871.546 Kbits (all three working and sending data at the same time)
+\\ 
+\item{\textbf{House keeping signals}}
+\\
+The system shall also monitor the following signals:
+\begin{itemize}
+\item{50 temperature measurements each of 8 bits at 1 Hz}
+\item{10 voltage measurements on the power bus each of 8 bits at 1 Hz}
+\item{20 currents measurements each of 8 bits at 1 Hz}
+\item{8 pressure analysis each of 8 bits at 1 Hz}
+\item{43 single status bits at 0.02 Hz sampling rate } 
+\item{8 re-reads of digital 8 bit control registers that shall be read when they are changed at 1 Hz}
+
+\end{itemize}
+\
+\\
+The amount of bits per orbit per sensor then is obtained as:
+\\
+$$n.^o \hspace{0.1 cm} Instruments \cdot frequency \cdot Orbital \hspace{0.1 cm} period \cdot bits$$
+\\
+\textbf{Total Amount of bits (Temperature):} 2.420 Mbits
+\\
+\textbf{Total Amount of bits (Power):} 484.192 Kbits
+\\
+\textbf{Total Amount of bits (Current):} 968.384 Kbits
+\\
+\textbf{Total Amount of bits (Pressure):}  387.359 Kbits
+\\
+\textbf{Total Amount of bits (Others):} 392.533 Kbits 
+ \\
+ \\
+ \textbf{Total Amount of bits:} 3.781 Mbits
+
+For all of the sensors, when not stated, it has been assumed a period of at 1 Hz between one measurament and the other.
+
+
+
+
+
+
+\end{itemize}
+\
+\\
+\\
+\textbf{Budget bits to be sent:} 1.207 Gbits
+\\
+Which, for the window of 10' is equal to an amount of 2.012 Mbits/s
+\\
+\textbf{Total bits available to be transferred in 10' using SpaceWire:} 240.00 Gbits
+\\
+This is the reason why it is necessary to use SpaceWire for the download/upload of data, because SpaceWire has a peak of 400 Mbits/s.
+
+
+
+\begin{tiny}
+\begin{center}
+\begin{tabular}{ |p{1.8cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1.8cm}|  }
+\hline
+\multicolumn{6}{|c|}{\textbf{bits budget per satellite's orbital period}} \\
+\hline
+Mimmi & Musse & Kajsa & Kalle, Pich and Puff &  House keeping & Total\\
+\hline
+ 1,199,000,000.00 & 3,486,182.00 & 96,838.00 & 871,546.00 & 3,781,000.00 & 1,207,235,384.00 \\
+\hline
+\end{tabular}
+\end{center}
+\end{tiny}
+\
+\\
+It is clear that the payload that has a key role in the data budget is Mimmi, since it stores in one orbit an amount of data of 1.199 Gbits.
+\\
+\newpage
+\section*{Security for non-authorized commanding}
+\
+\\
+Since the commands are open it is necessary to ensure a sort of security for avoiding non-authorized commands to the satellite.
+\\
+Having an open commands means that everyone could see what is the GS communicating with the satellite about, but having a security means to avoide hacking attemptives.
+\\
+The satellite, in order to prevent non-authorized commands, shall be governed using public-key crypthography.
+\\
+This kind of cryptography is a communication where people exchange messages that can only be read by one another.
+\\
+In public key cryptography, each user has a pair of cryptographic keys called public key and private key.
+\\
+The public keys can be widely distributed, while the private keys must be kept secret.
+\\
+The satellite will have inside its computer a server with all the public keys allowed to communicate with.
+\\
+The private keys shall be owned only by the ground station personnel dedicated to the telecommunication (which shall have the public keys, obviously).
+\\
+The method proposed is the  SEEC(Satellite Encryption and
+Error Correction) and selects the
+LDPC codes, which is suitable for satellite
+communications, and uses the AES round key
+to control the encoding process, at the same
+time, proposes a new algorithm of round key
+generation.
+
+
+\end{document}
